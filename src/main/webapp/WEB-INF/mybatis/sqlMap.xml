@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="cacheEnabled" value="false" />
+		<setting name="useGeneratedKeys" value="true" />
+		<setting name="defaultExecutorType" value="REUSE" />
+	</settings>
+	<typeAliases>
+		<typeAlias alias="members" type="com.bean.Members" />
+		<typeAlias alias="mento" type="com.bean.Mento" />
+		<typeAlias alias="reply" type="com.bean.ReplyList" />
+		<typeAlias alias="list" type="java.util.List" />
+		<typeAlias alias="Map" type="java.util.Map" />
+	</typeAliases>
+</configuration>
